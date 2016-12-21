@@ -8,6 +8,14 @@
 [![Travis Build Status](https://travis-ci.org/libevent/libevent.svg?branch=master)](https://travis-ci.org/libevent/libevent)
 [![Coverage Status](https://coveralls.io/repos/github/libevent/libevent/badge.svg)](https://coveralls.io/github/libevent/libevent)
 
+### 中文说明
+此版本libevent是对其的WebSocket扩展支持。实现遵守RFC6455。以及对一些错误的修正。
+
+修正错误如下：
+
+evconnlistener的内存泄漏，不影响什么，但也是个肉。
+
+
 
 
 # 0. BUILDING AND INSTALLATION (Briefly)
